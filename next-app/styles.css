@@ -1,0 +1,101 @@
+:root {
+  --brand-color: #2563eb;
+  --accent-color: #f97316;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+input,
+button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.hero {
+  background: var(--brand-color);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--accent-color);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.courses ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.courses li {
+  background: #f1f1f1;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.categories .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #f1f1f1;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.testimonials {
+  background: #f9fafb;
+  padding: 2rem 1rem;
+}
+
+.footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.centered {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.terms {
+  font-size: 0.9rem;
+}
